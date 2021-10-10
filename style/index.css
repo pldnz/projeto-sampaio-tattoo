@@ -2,7 +2,7 @@ body {
   background-color: #fff;
   font-family: "Montserrat", sans-serif;
   display: grid;
-  grid-template-columns: minmax(200px, 1fr) 900px 200px;
+  grid-template-columns: 200px 1000px 1fr;
   grid-template-areas:
     "sidenav content content"
     "footer footer footer";
@@ -20,6 +20,7 @@ p {
 h1 {
   font-family: "Times New Roman", Times, serif;
   font-weight: bolder;
+  text-align: center;
 }
 
 .sidenav {
@@ -27,11 +28,12 @@ h1 {
   background-color: #050505;
   font-family: "Times New Roman", Times, serif;
   font-weight: bolder;
+  text-align: center;
 }
 
 .sidenav ul {
   margin-top: 60px;
-  margin-left: 20px;
+  margin-left: 10px;
   position: fixed;
   font-size: 1.5em;
   line-height: 100%;
@@ -49,6 +51,10 @@ h1 {
 
 .sidenav a {
   color: #fff;
+}
+
+.portfolio {
+  margin-bottom: 35px;
 }
 
 .portfolio h1 {
@@ -101,7 +107,7 @@ h1 {
 
 .sobre {
   display: flex;
-  margin: 50px;
+  margin: 35px;
   grid-column: 2/3;
   max-width: 100%;
 }
@@ -109,17 +115,20 @@ h1 {
 .sobre-img {
   border-radius: 50%;
   max-width: 350px;
-  margin: 20px;
+  margin-top: 40px;
+  margin-right: 20px;
 }
 
 .sobre-texto {
-  max-width: 350px;
+  max-width: 550px;
   padding: 15px;
+  margin: 0 auto;
 }
 
-.sobre-texto h1 {
-  text-align: center;
-  margin-bottom: 10px;
+.sobre-texto p {
+  font-size: 1.125em;
+  text-align: justify;
+  padding: 0 20px;
 }
 
 .clientes {
@@ -164,7 +173,8 @@ h1 {
 }
 
 .contato-itens {
-  margin-left: 35%;
+  display: block;
+  margin-left: 33%;
 }
 
 .contato h1 {

@@ -8,7 +8,7 @@
   }
 
   .owl-item {
-    height: 360px;
+    height: 300px;
   }
 
   .sidenav {
@@ -53,6 +53,15 @@
   .sobre {
     max-width: 100%;
     align-items: center;
+    margin: 35px auto;
+  }
+
+  .sobre-img {
+    margin: 20px auto;
+  }
+
+  .sobre-img p {
+    padding: 20px;
   }
 
   .itens-clientes {
@@ -85,10 +94,6 @@
     display: block;
   }
 
-  .contato-itens {
-    margin-left: 15%;
-  }
-
   iframe {
     max-width: 100%;
   }
@@ -107,12 +112,11 @@
 
   .redes-sociais img:hover {
     width: 30px;
-    margin-top: -15px;
-    transition: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: block;
   }
-}
 
-@media (min-width: 0px) and (max-width: 768px) {
   .img-itens {
     max-height: 180px;
   }
@@ -122,6 +126,20 @@
   }
 
   .contato-itens {
-    margin-left: -5%;
+    margin-left: 10%;
+  }
+
+  .img-itens:hover {
+    border: #fff solid 10px;
+  }
+
+  .owl-item {
+    height: 270px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .owl-item {
+    height: 400px;
   }
 }
