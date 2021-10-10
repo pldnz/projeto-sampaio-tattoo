@@ -17,10 +17,11 @@ p {
   font-size: 1.25em;
 }
 
-h1 {
+h2 {
   font-family: "Times New Roman", Times, serif;
   font-weight: bolder;
   text-align: center;
+  font-size: 2em;
 }
 
 .sidenav {
@@ -57,7 +58,7 @@ h1 {
   margin-bottom: 35px;
 }
 
-.portfolio h1 {
+.portfolio h2 {
   text-align: center;
   margin: 35px 0;
 }
@@ -140,7 +141,7 @@ h1 {
   font-size: 1.125em;
 }
 
-.clientes h1 {
+.clientes h2 {
   margin-top: 50px;
   margin-bottom: 25px;
 }
@@ -177,7 +178,7 @@ h1 {
   margin-left: 33%;
 }
 
-.contato h1 {
+.contato h2 {
   margin-top: 50px;
   margin-bottom: 25px;
 }
