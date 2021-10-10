@@ -126,7 +126,16 @@
   }
 
   .contato-itens {
-    margin-left: 10%;
+    margin-left: 0;
+  }
+
+  .contato-itens {
+    font-size: 0.8em;
+  }
+
+  .contato-itens p img {
+    width: 20px;
+    margin-right: 5px;
   }
 
   .img-itens:hover {
@@ -141,5 +150,13 @@
 @media (min-width: 0px) and (max-width: 480px) {
   .owl-item {
     height: 400px;
+  }
+
+  .sobre {
+    font-size: 0.8em;
+  }
+
+  .itens-clientes {
+    font-size: 0.8em;
   }
 }
