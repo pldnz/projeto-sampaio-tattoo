@@ -93,6 +93,10 @@ h2 {
   text-align: center;
 }
 
+.main-title {
+  text-indent: -9999px;
+}
+
 .main img {
   margin: 0 auto;
 }
