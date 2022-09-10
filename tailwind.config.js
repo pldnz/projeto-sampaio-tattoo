@@ -7,6 +7,7 @@ module.exports = {
                 times: ['"Times New Roman"', "Times", "serif"],
                 montserrat: ["Montserrat", "sans-serif"],
             },
+            colors: { azure: "#F0FFFF" },
         },
     },
     plugins: [],
