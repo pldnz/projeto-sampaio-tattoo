@@ -3,7 +3,7 @@ $(document).ready(function () {
         loop: true,
         margin: 2,
         nav: false,
-        items: 3,
+        items: 1,
         autoplay: true,
         autoplayTimeout: 3000,
         autoplayHoverPause: true,
@@ -11,10 +11,10 @@ $(document).ready(function () {
             0: {
                 items: 1,
             },
-            400: {
+            768: {
                 items: 2,
             },
-            600: {
+            1280: {
                 items: 3,
             },
         },
