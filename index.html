@@ -1,268 +1,800 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Sampaio Tattoo Studio</title>
-  <meta name="description" content="O Estúdio Sampaio Tattoo está localizado em Itararé/SP. Excelente tatuador especialista nos estilos Blackwork, old school, oriental, realismo e fineline.">
-  <link rel="canonical" href="">
-  <meta name="author" content="Paulo Diniz">
-  <meta name="robots" content="index, nofollow">
+        <title>Sampaio Tattoo Studio</title>
+        <meta
+            name="description"
+            content="O Estúdio Sampaio Tattoo está localizado em Itararé/SP. Excelente tatuador especialista nos estilos Blackwork, old school, oriental, realismo e fineline."
+        />
+        <link rel="canonical" href="" />
+        <meta name="author" content="Paulo Diniz" />
+        <meta name="robots" content="index, nofollow" />
 
-  <meta itemprop="name" content="Sampaio Tattoo Studio">
-  <meta itemprop="description" content="O Estúdio Sampaio Tattoo está localizado em Itararé/SP. Excelente tatuador especialista nos estilos Blackwork, old school, oriental, realismo e fineline.">
-  <meta itemprop="image" content="/images/logo.webp">
-  
-  <meta property="og:url" content="">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Sampaio Tattoo Studio">
-  <meta property="og:image" content="/images/logo.webp">
-  <meta property="og:description" content="O Estúdio Sampaio Tattoo está localizado em Itararé/SP. Excelente tatuador especialista nos estilos Blackwork, old school, oriental, realismo e fineline.">
-  <meta property="og:site_name" content="Sampaio Tattoo Studio">
+        <meta itemprop="name" content="Sampaio Tattoo Studio" />
+        <meta
+            itemprop="description"
+            content="O Estúdio Sampaio Tattoo está localizado em Itararé/SP. Excelente tatuador especialista nos estilos Blackwork, old school, oriental, realismo e fineline."
+        />
+        <meta itemprop="image" content="./images/logo.webp" />
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="">
-  <meta name="twitter:title" content="Sampaio Tattoo Studio">
-  <meta name="twitter:description" content="O Estúdio Sampaio Tattoo está localizado em Itararé/SP. Excelente tatuador especialista nos estilos Blackwork, old school, oriental, realismo e fineline.">
-  <meta name="twitter:image" content="/images/logo.webp">
+        <meta property="og:url" content="" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Sampaio Tattoo Studio" />
+        <meta property="og:image" content="./images/logo.webp" />
+        <meta
+            property="og:description"
+            content="O Estúdio Sampaio Tattoo está localizado em Itararé/SP. Excelente tatuador especialista nos estilos Blackwork, old school, oriental, realismo e fineline."
+        />
+        <meta property="og:site_name" content="Sampaio Tattoo Studio" />
 
-  <link rel="shortcut icon" type="image/x-icon" href="images/icon.ico">
-  <link rel="stylesheet" href="style/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="/style/owl.carousel.min.css">
-  <link rel="stylesheet" href="/style/owl.theme.default.min.css">
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:url" content="" />
+        <meta name="twitter:title" content="Sampaio Tattoo Studio" />
+        <meta
+            name="twitter:description"
+            content="O Estúdio Sampaio Tattoo está localizado em Itararé/SP. Excelente tatuador especialista nos estilos Blackwork, old school, oriental, realismo e fineline."
+        />
+        <meta name="twitter:image" content="./images/logo.webp" />
 
-  
-</head>
-<body>
-  <nav class="sidenav">
-    <ul>
-      <li><a href="#portfolio">PORTFÓLIO</a></li>
-      <li><a href="#sobre">SOBRE</a></li>
-      <li><a href="#contato">CONTATO</a></li>
-    </ul>
+        <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="./images/icon.ico"
+        />
+        <link rel="stylesheet" href="./dist/theme.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./style/owl.carousel.min.css" />
+        <link rel="stylesheet" href="./style/owl.theme.default.min.css" />
+    </head>
+    <body>
+        <nav
+            class="bg-black px-3 md:px-5 fixed top-0 left-0 w-screen xl:w-56 xl:h-screen xl:py-20 xl:px-10 flex xl:flex-col justify-between gap-8 xl:gap-0 z-20"
+        >
+            <ul
+                class="font-times font-bold text-white text-sm md:text-2xl text-center flex xl:flex-col gap-3 md:gap-6 xl:gap-0"
+            >
+                <li class="py-4">
+                    <a class="hover:underline" href="#portfolio">PORTFÓLIO</a>
+                </li>
+                <li class="py-4">
+                    <a class="hover:underline" href="#sobre">SOBRE</a>
+                </li>
+                <li class="py-4">
+                    <a class="hover:underline" href="#contato">CONTATO</a>
+                </li>
+            </ul>
 
-    <div class="redes-sociais">
-      <a href="https://www.facebook.com/sampaiotattooo/" target="blank"><img class="facebook" src="images/facebook.png" alt="ícone do facebook"></a>
-      <a href="https://www.instagram.com/sampaiotattooo/" target="blank"><img class="instagram" src="images/instagram.png" alt="ícone do instagram"></a>
-    </div>
-  </nav>
+            <div
+                class="text-white flex xl:flex-col gap-3 md:gap-4 items-center xl:items-start"
+            >
+                <a
+                    class="block w-8 h-8 box-border border border-white rounded-md pt-1 overflow-hidden hover:scale-110 ease-in-out will-change-transform duration-200"
+                    href="https://www.facebook.com/sampaiotattooo/"
+                    target="blank"
+                >
+                    <svg
+                        class="w-full h-full"
+                        viewBox="0 0 16 30"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M16 0H11.6364C9.70752 0 7.85767 0.775965 6.49377 2.15719C5.12987 3.53842 4.36364 5.41176 4.36364 7.36511V11.7842H0V17.6763H4.36364V29.4604H10.1818V17.6763H14.5455L16 11.7842H10.1818V7.36511C10.1818 6.97444 10.3351 6.59977 10.6078 6.32353C10.8806 6.04728 11.2506 5.89209 11.6364 5.89209H16V0Z"
+                            fill="currentColor"
+                        />
+                    </svg>
+                </a>
+                <a
+                    class="block w-8 h-8 hover:scale-110 ease-in-out will-change-transform duration-200"
+                    href="https://www.instagram.com/sampaiotattooo/"
+                    target="blank"
+                >
+                    <svg
+                        class="w-full h-full"
+                        viewBox="0 0 28 28"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M14.0031 6.71307C10.0303 6.71307 6.82588 9.86747 6.82588 13.7782C6.82588 17.6889 10.0303 20.8433 14.0031 20.8433C17.9759 20.8433 21.1804 17.6889 21.1804 13.7782C21.1804 9.86747 17.9759 6.71307 14.0031 6.71307ZM14.0031 18.3714C11.4358 18.3714 9.33698 16.3115 9.33698 13.7782C9.33698 11.2448 11.4296 9.18494 14.0031 9.18494C16.5767 9.18494 18.6693 11.2448 18.6693 13.7782C18.6693 16.3115 16.5704 18.3714 14.0031 18.3714V18.3714ZM23.148 6.42407C23.148 7.34026 22.3984 8.07198 21.474 8.07198C20.5432 8.07198 19.7999 7.33411 19.7999 6.42407C19.7999 5.51404 20.5495 4.77617 21.474 4.77617C22.3984 4.77617 23.148 5.51404 23.148 6.42407ZM27.9016 8.09658C27.7954 5.88912 27.2832 3.93377 25.6404 2.32275C24.0038 0.711736 22.0174 0.207526 19.7749 0.0968453C17.4637 -0.0322818 10.5363 -0.0322818 8.2251 0.0968453C5.98885 0.201377 4.00245 0.705587 2.35962 2.3166C0.716788 3.92762 0.21082 5.88297 0.0983826 8.09043C-0.0327942 10.3655 -0.0327942 17.1847 0.0983826 19.4598C0.204573 21.6672 0.716788 23.6226 2.35962 25.2336C4.00245 26.8446 5.9826 27.3488 8.2251 27.4595C10.5363 27.5886 17.4637 27.5886 19.7749 27.4595C22.0174 27.355 24.0038 26.8508 25.6404 25.2336C27.277 23.6226 27.7892 21.6672 27.9016 19.4598C28.0328 17.1847 28.0328 10.3717 27.9016 8.09658V8.09658ZM24.9158 21.9009C24.4286 23.1061 23.4853 24.0346 22.2548 24.5203C20.412 25.2397 16.0395 25.0737 14.0031 25.0737C11.9668 25.0737 7.58795 25.2336 5.75148 24.5203C4.52716 24.0407 3.58394 23.1122 3.09046 21.9009C2.35962 20.087 2.52828 15.7827 2.52828 13.7782C2.52828 11.7736 2.36587 7.46324 3.09046 5.65546C3.57769 4.45027 4.52091 3.52179 5.75148 3.03602C7.5942 2.3166 11.9668 2.48262 14.0031 2.48262C16.0395 2.48262 20.4183 2.32275 22.2548 3.03602C23.4791 3.51564 24.4223 4.44413 24.9158 5.65546C25.6466 7.46939 25.478 11.7736 25.478 13.7782C25.478 15.7827 25.6466 20.0931 24.9158 21.9009Z"
+                            fill="currentColor"
+                        />
+                    </svg>
+                </a>
+            </div>
+        </nav>
 
-  <main class="content">
-    <section class="main" id="main">
-      <img src="images/logo.webp" alt="Logotipo do estúdio Sampaio Tattoo">
-      <p>Blackwork, old school, oriental, realismo e fineline.</p>
-    </section>
+        <main
+            class="w-full pl-3 pr-3 md:pl-5 md:pr-5 xl:pr-0 pt-20 xl:pl-20 2xl:pl-0"
+        >
+            <section class="xl:max-w-4xl 2xl:max-w-5xl mx-auto mb-36" id="main">
+                <h1 class="text-black indent-[-999px]">
+                    Sampaio Tattoo Studio
+                </h1>
+                <figure class="flex justify-center">
+                    <img
+                        src="images/logo.webp"
+                        alt="Logotipo do estúdio Sampaio Tattoo"
+                    />
+                </figure>
+                <p class="font-montserrat text-center text-xl">
+                    Blackwork, old school, oriental, realismo e fineline.
+                </p>
+            </section>
 
-    <section class="portfolio" id="portfolio">
-      <h2>TRABALHOS</h2>
-      <div class="owl-carousel">
-        <div class="img-itens">
-          <a href="#ex1" rel="modal:open"><img src="/images/tattoo-1.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"></a>
-        </div>
-        <div class="img-itens">
-          <a href="#ex2" rel="modal:open"><img src="/images/tattoo-2.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"></a>
-        </div>
-        <div class="img-itens">
-          <a href="#ex3" rel="modal:open"><img src="/images/tattoo-3.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"></a>
-        </div>
-        <div class="img-itens">
-          <a href="#ex4" rel="modal:open"><img src="/images/tattoo-4.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"></a>
-        </div>
-        <div class="img-itens">
-          <a href="#ex5" rel="modal:open"><img src="/images/tattoo-5.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"></a>
-        </div>
-        <div class="img-itens">
-          <a href="#ex6" rel="modal:open"><img src="/images/tattoo-6.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"></a>
-        </div>
-      </div>
-      
-      <div class="owl-carousel">
-        <div class="img-itens">
-          <a href="#ex7" rel="modal:open"><img src="/images/tattoo-7.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"></a>
-        </div>
-        <div class="img-itens">
-          <a href="#ex8" rel="modal:open"><img src="/images/tattoo-8.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"></a>
-        </div>
-        <div class="img-itens">
-          <a href="#ex9" rel="modal:open"><img src="/images/tattoo-9.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"></a>
-        </div>
-        <div class="img-itens">
-          <a href="#ex10" rel="modal:open"><img src="/images/tattoo-10.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"></a>
-        </div>
-        <div class="img-itens">
-          <a href="#ex11" rel="modal:open"><img src="/images/tattoo-11.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"></a>
-        </div>
-        <div class="img-itens">
-          <a href="#ex12" rel="modal:open"><img src="/images/tattoo-12.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"></a>
-        </div>
-      </div>
+            <section
+                class="xl:max-w-4xl 2xl:max-w-5xl mx-auto mb-20"
+                id="portfolio"
+            >
+                <h2 class="text-center font-bold font-times text-3xl">
+                    TRABALHOS
+                </h2>
+                <ul class="owl-carousel mt-9">
+                    <li
+                        class="h-[400px] border-[16px] border-white group overflow-hidden"
+                    >
+                        <a
+                            class="block w-full h-full"
+                            href="#ex1"
+                            rel="modal:open"
+                            ><img
+                                class="w-full h-full object-cover group-hover:scale-125 ease-in-out will-change-transform duration-500"
+                                src="images/tattoo-1.webp"
+                                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+                        /></a>
+                    </li>
+                    <li
+                        class="h-[400px] border-[16px] border-white group overflow-hidden"
+                    >
+                        <a
+                            class="block w-full h-full"
+                            href="#ex2"
+                            rel="modal:open"
+                            ><img
+                                class="w-full h-full object-cover group-hover:scale-125 ease-in-out will-change-transform duration-500"
+                                src="images/tattoo-2.webp"
+                                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+                        /></a>
+                    </li>
+                    <li
+                        class="h-[400px] border-[16px] border-white group overflow-hidden"
+                    >
+                        <a
+                            class="block w-full h-full"
+                            href="#ex3"
+                            rel="modal:open"
+                            ><img
+                                class="w-full h-full object-cover group-hover:scale-125 ease-in-out will-change-transform duration-500"
+                                src="images/tattoo-3.webp"
+                                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+                        /></a>
+                    </li>
+                    <li
+                        class="h-[400px] border-[16px] border-white group overflow-hidden"
+                    >
+                        <a
+                            class="block w-full h-full"
+                            href="#ex4"
+                            rel="modal:open"
+                            ><img
+                                class="w-full h-full object-cover group-hover:scale-125 ease-in-out will-change-transform duration-500"
+                                src="images/tattoo-4.webp"
+                                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+                        /></a>
+                    </li>
+                    <li
+                        class="h-[400px] border-[16px] border-white group overflow-hidden"
+                    >
+                        <a
+                            class="block w-full h-full"
+                            href="#ex5"
+                            rel="modal:open"
+                            ><img
+                                class="w-full h-full object-cover group-hover:scale-125 ease-in-out will-change-transform duration-500"
+                                src="images/tattoo-5.webp"
+                                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+                        /></a>
+                    </li>
+                    <li
+                        class="h-[400px] border-[16px] border-white group overflow-hidden"
+                    >
+                        <a
+                            class="block w-full h-full"
+                            href="#ex6"
+                            rel="modal:open"
+                            ><img
+                                class="w-full h-full object-cover group-hover:scale-125 ease-in-out will-change-transform duration-500"
+                                src="images/tattoo-6.webp"
+                                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+                        /></a>
+                    </li>
+                </ul>
 
-      <h2>DESENHOS AUTORAIS</h2>
-      <div class="owl-carousel">
-        <div class="img-itens">
-          <a href="#ex13" rel="modal:open"><img src="/images/autoral-1.webp" alt="Foto de um desenho autoral do Matheus Sampaio"></a>
-        </div>
-        <div class="img-itens">
-          <a href="#ex14" rel="modal:open"><img src="/images/autoral-2.webp" alt="Foto de um desenho autoral do Matheus Sampaio"></a>
-        </div>
-        <div class="img-itens">
-          <a href="#ex15" rel="modal:open"><img src="/images/autoral-3.webp" alt="Foto de um desenho autoral do Matheus Sampaio"></a>
-        </div>
-        <div class="img-itens">
-          <a href="#ex16" rel="modal:open"><img src="/images/autoral-4.webp" alt="Foto de um desenho autoral do Matheus Sampaio"></a>
-        </div>
-        <div class="img-itens">
-          <a href="#ex17" rel="modal:open"><img src="/images/autoral-5.webp" alt="Foto de um desenho autoral do Matheus Sampaio"></a>
-        </div>
-        <div class="img-itens">
-          <a href="#ex18" rel="modal:open"><img src="/images/autoral-6.webp" alt="Foto de um desenho autoral do Matheus Sampaio"></a>
-        </div>
-      </div>
-    </section>
+                <ul class="owl-carousel h-[400px] mt-3 mb-12">
+                    <li
+                        class="h-[400px] border-[16px] border-white group overflow-hidden"
+                    >
+                        <a
+                            class="block w-full h-full"
+                            href="#ex7"
+                            rel="modal:open"
+                            ><img
+                                class="w-full h-full object-cover group-hover:scale-125 ease-in-out will-change-transform duration-500"
+                                src="images/tattoo-7.webp"
+                                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+                        /></a>
+                    </li>
+                    <li
+                        class="h-[400px] border-[16px] border-white group overflow-hidden"
+                    >
+                        <a
+                            class="block w-full h-full"
+                            href="#ex8"
+                            rel="modal:open"
+                            ><img
+                                class="w-full h-full object-cover group-hover:scale-125 ease-in-out will-change-transform duration-500"
+                                src="images/tattoo-8.webp"
+                                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+                        /></a>
+                    </li>
+                    <li
+                        class="h-[400px] border-[16px] border-white group overflow-hidden"
+                    >
+                        <a
+                            class="block w-full h-full"
+                            href="#ex9"
+                            rel="modal:open"
+                            ><img
+                                class="w-full h-full object-cover group-hover:scale-125 ease-in-out will-change-transform duration-500"
+                                src="images/tattoo-9.webp"
+                                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+                        /></a>
+                    </li>
+                    <li
+                        class="h-[400px] border-[16px] border-white group overflow-hidden"
+                    >
+                        <a
+                            class="block w-full h-full"
+                            href="#ex10"
+                            rel="modal:open"
+                            ><img
+                                class="w-full h-full object-cover group-hover:scale-125 ease-in-out will-change-transform duration-500"
+                                src="images/tattoo-10.webp"
+                                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+                        /></a>
+                    </li>
+                    <li
+                        class="h-[400px] border-[16px] border-white group overflow-hidden"
+                    >
+                        <a
+                            class="block w-full h-full"
+                            href="#ex11"
+                            rel="modal:open"
+                            ><img
+                                class="w-full h-full object-cover group-hover:scale-125 ease-in-out will-change-transform duration-500"
+                                src="images/tattoo-11.webp"
+                                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+                        /></a>
+                    </li>
+                    <li
+                        class="h-[400px] border-[16px] border-white group overflow-hidden"
+                    >
+                        <a
+                            class="block w-full h-full"
+                            href="#ex12"
+                            rel="modal:open"
+                            ><img
+                                class="w-full h-full object-cover group-hover:scale-125 ease-in-out will-change-transform duration-500"
+                                src="images/tattoo-12.webp"
+                                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+                        /></a>
+                    </li>
+                </ul>
 
-    <h2 id="sobre">MATHEUS SAMPAIO</h2>
-    <section class="sobre">
-      <div>
-        <img class="sobre-img" src="images/sampaio.webp" alt="Foto do tatuador Matheus Sampaio">
-      </div>
-      <div class="sobre-texto">
-        <p>
-          Apaixonado por todo tipo de arte, passou sua vida se dedicando a dominar várias vertentes artísticas em diferentes lugares. Seja desenhando em papel ou madeira, pintando telas ou camisetas, sempre buscou aprender sobre a arte. Até por isso, se formou em Artes Visuais e participou por um bom tempo sendo professor.
-          <br>Sem poder dar aulas durante a pandemia, foi em direção à uma superfície que não tinha riscado ainda: a pele. Após um longo tempo fazendo cursos e estudando na teoria, começou a tatuar amigos, conhecidos e formando seu público. Hoje em dia atua profissionalmente em seu estúdio na cidade de Itararé-SP.
-          <br>Suas artes autorais são voltadas ao blackwork, um estilo baseado no preto com temas sombrios, fazendo também criações de ideias que seus clientes pedirem, mas no seu estúdio abraça qualquer tipo de arte que as pessoas desejarem para traçar e colorir suas vidas.
-        </p>
-      </div>
-    </section>
+                <h2 class="text-center font-bold font-times text-3xl">
+                    DESENHOS AUTORAIS
+                </h2>
+                <ul class="owl-carousel h-[400px] mt-9 mb-10">
+                    <li
+                        class="h-[400px] border-[16px] border-white group overflow-hidden"
+                    >
+                        <a
+                            class="block w-full h-full"
+                            href="#ex13"
+                            rel="modal:open"
+                            ><img
+                                class="w-full h-full object-cover group-hover:scale-125 ease-in-out will-change-transform duration-500"
+                                src="./images/autoral-1.webp"
+                                alt="Foto de um desenho autoral do Matheus Sampaio"
+                        /></a>
+                    </li>
+                    <li
+                        class="h-[400px] border-[16px] border-white group overflow-hidden"
+                    >
+                        <a
+                            class="block w-full h-full"
+                            href="#ex14"
+                            rel="modal:open"
+                            ><img
+                                class="w-full h-full object-cover group-hover:scale-125 ease-in-out will-change-transform duration-500"
+                                src="./images/autoral-2.webp"
+                                alt="Foto de um desenho autoral do Matheus Sampaio"
+                        /></a>
+                    </li>
+                    <li
+                        class="h-[400px] border-[16px] border-white group overflow-hidden"
+                    >
+                        <a
+                            class="block w-full h-full"
+                            href="#ex15"
+                            rel="modal:open"
+                            ><img
+                                class="w-full h-full object-cover group-hover:scale-125 ease-in-out will-change-transform duration-500"
+                                src="./images/autoral-3.webp"
+                                alt="Foto de um desenho autoral do Matheus Sampaio"
+                        /></a>
+                    </li>
+                    <li
+                        class="h-[400px] border-[16px] border-white group overflow-hidden"
+                    >
+                        <a
+                            class="block w-full h-full"
+                            href="#ex16"
+                            rel="modal:open"
+                            ><img
+                                class="w-full h-full object-cover group-hover:scale-125 ease-in-out will-change-transform duration-500"
+                                src="./images/autoral-4.webp"
+                                alt="Foto de um desenho autoral do Matheus Sampaio"
+                        /></a>
+                    </li>
+                    <li
+                        class="h-[400px] border-[16px] border-white group overflow-hidden"
+                    >
+                        <a
+                            class="block w-full h-full"
+                            href="#ex17"
+                            rel="modal:open"
+                            ><img
+                                class="w-full h-full object-cover group-hover:scale-125 ease-in-out will-change-transform duration-500"
+                                src="./images/autoral-5.webp"
+                                alt="Foto de um desenho autoral do Matheus Sampaio"
+                        /></a>
+                    </li>
+                    <li
+                        class="h-[400px] border-[16px] border-white group overflow-hidden"
+                    >
+                        <a
+                            class="block w-full h-full"
+                            href="#ex18"
+                            rel="modal:open"
+                            ><img
+                                class="w-full h-full object-cover group-hover:scale-125 ease-in-out will-change-transform duration-500"
+                                src="./images/autoral-6.webp"
+                                alt="Foto de um desenho autoral do Matheus Sampaio"
+                        /></a>
+                    </li>
+                </ul>
+            </section>
 
-    <section class="clientes">
-      <h2>CLIENTES</h2>
-      <p>Depoimentos dos meus clientes</p>
-      <div class="itens-clientes">
-        <div>
-          <p>
-            "Faço tatuagens há anos e não encontrei um tatuador mais dedicado e preocupado com a satisfação do seu cliente como o Sampaio. Ambiente muito confortável e cuidado com o trabalho excelente."</p>
-          <img src="/images/cliente-1.webp" alt="Foto do cliente Gabriel Lima">
-          <p>
-            <span>Gabriel Lima</span>
-          </p>
+            <section
+                class="xl:max-w-4xl 2xl:max-w-5xl mx-auto mb-20"
+                id="sobre"
+            >
+                <h2 class="text-center font-bold font-times text-3xl w-full">
+                    MATHEUS SAMPAIO
+                </h2>
+                <article
+                    class="flex flex-col md:flex-row xl:grid xl:grid-cols-2 mt-9 items-center gap-7"
+                >
+                    <figure
+                        class="w-52 h-52 md:min-w-[350px] md:w-[350px] md:h-[350px] 2xl:w-[450px] 2xl:h-[450px] rounded-[50%] overflow-hidden"
+                    >
+                        <img
+                            class="w-full h-full"
+                            src="images/sampaio.webp"
+                            alt="Foto do tatuador Matheus Sampaio"
+                        />
+                    </figure>
+                    <p
+                        class="font-montserrat text-justify md:text-base 2xl:text-lg"
+                    >
+                        Apaixonado por todo tipo de arte, passou sua vida se
+                        dedicando a dominar várias vertentes artísticas em
+                        diferentes lugares. Seja desenhando em papel ou madeira,
+                        pintando telas ou camisetas, sempre buscou aprender
+                        sobre a arte. Até por isso, se formou em Artes Visuais e
+                        participou por um bom tempo sendo professor.
+                        <br />Sem poder dar aulas durante a pandemia, foi em
+                        direção à uma superfície que não tinha riscado ainda: a
+                        pele. Após um longo tempo fazendo cursos e estudando na
+                        teoria, começou a tatuar amigos, conhecidos e formando
+                        seu público. Hoje em dia atua profissionalmente em seu
+                        estúdio na cidade de Itararé-SP. <br />Suas artes
+                        autorais são voltadas ao blackwork, um estilo baseado no
+                        preto com temas sombrios, fazendo também criações de
+                        ideias que seus clientes pedirem, mas no seu estúdio
+                        abraça qualquer tipo de arte que as pessoas desejarem
+                        para traçar e colorir suas vidas.
+                    </p>
+                </article>
+            </section>
+
+            <section class="xl:max-w-4xl 2xl:max-w-5xl mx-auto mb-20">
+                <h2
+                    class="text-center font-bold font-times text-3xl w-full mb-6"
+                >
+                    CLIENTES
+                </h2>
+                <p class="text-center font-montserrat text-xl mb-3">
+                    Depoimentos dos meus clientes
+                </p>
+                <ul
+                    class="w-full flex flex-wrap justify-center gap-x-24 gap-y-10 font-montserrat text-sm md:text-base 2xl:text-lg"
+                >
+                    <li
+                        class="max-w-xl xl:max-w-sm h-fit flex flex-col items-center p-5 bg-azure gap-2"
+                    >
+                        <p class="italic text-center">
+                            "Faço tatuagens há anos e não encontrei um tatuador
+                            mais dedicado e preocupado com a satisfação do seu
+                            cliente como o Sampaio. Ambiente muito confortável e
+                            cuidado com o trabalho excelente."
+                        </p>
+                        <figure class="flex flex-col items-center gap-1">
+                            <img
+                                class="w-24 h-24 rounded-[50%]"
+                                src="./images/cliente-1.webp"
+                                alt="Foto do cliente Gabriel Lima"
+                            />
+                            <figcaption class="font-bold">
+                                Gabriel Lima
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li
+                        class="max-w-xl xl:max-w-sm h-fit flex flex-col items-center p-5 bg-azure gap-2"
+                    >
+                        <p class="italic text-center">
+                            "Gostei bastante do ambiente do estúdio, que é super
+                            aconchegante e organizado! Gostei também da higiene
+                            e preocupação com os cuidados pós tatuagem, no qual
+                            ele fornece até pomadinhas cicatrizantes e um guia
+                            de como cuidar... adorei! com certeza farei de
+                            novo!"
+                        </p>
+                        <figure class="flex flex-col items-center gap-1">
+                            <img
+                                class="w-24 h-24 rounded-[50%]"
+                                src="./images/cliente-2.webp"
+                                alt="Foto da cliente Rafaela Mazorca"
+                            />
+                            <figcaption class="font-bold">
+                                Rafaela Mazorca
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li
+                        class="max-w-xl xl:max-w-4xl h-fit flex flex-col items-center p-5 bg-azure gap-2"
+                    >
+                        <p class="italic text-center">
+                            "Conheço o Sampaio a anos, a tanto tempo que já não
+                            sei mais quanto! A arte sempre esteve presente na
+                            vida dele, desde muito pequeno, sempre gostou de
+                            rabiscar. Vi o talento desse cara crescer junto com
+                            ele, passando pelas mais diversas tipos de telas,
+                            onde coubesse arte, ele dava um jeito de encaixar.
+                            Há algum tempo, eu e alguns amigos em comum,
+                            começamos a nos tatuar, e nessa brecha ele encontrou
+                            mais uma tela que ele poderia explorar seu talento,
+                            e eu tive o prazer de ser a sua primeira tela viva!
+                            Desde então, a admiração que eu tinha por ele só
+                            aumentou, a sua dedicação e compromisso com a
+                            satisfação e bem estar do seus clientes é admirável!
+                            Passei por vários tatuadores antes dele, e posso
+                            garantir que o tratamento e o compromisso é
+                            inigualável!."
+                        </p>
+                        <figure>
+                            <img
+                                class="w-24 h-24 rounded-[50%]"
+                                src="./images/cliente-3.webp"
+                                alt="Foto do cliente Dyuri Halcsik"
+                            />
+                        </figure>
+                        <figcaption class="font-bold">Dyuri Halcsik</figcaption>
+                    </li>
+                </ul>
+            </section>
+
+            <section
+                class="xl:max-w-3xl 2xl:max-w-5xl mx-auto mb-20"
+                id="contato"
+            >
+                <h2
+                    class="text-center font-bold font-times text-3xl w-full mb-6"
+                >
+                    CONTATO
+                </h2>
+                <ul
+                    class="flex flex-col mx-auto max-w-xs font-montserrat text-xl gap-1"
+                >
+                    <li class="flex gap-2 items-center">
+                        <a
+                            class="flex gap-2 items-center hover:underline"
+                            href="https://api.whatsapp.com/send?phone=5515996163813&text="
+                            target="blank"
+                        >
+                            <svg
+                                class="w-7 h-7"
+                                fill="#000000"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                width="48px"
+                                height="48px"
+                            >
+                                <path
+                                    d="M 12.011719 2 C 6.5057187 2 2.0234844 6.478375 2.0214844 11.984375 C 2.0204844 13.744375 2.4814687 15.462563 3.3554688 16.976562 L 2 22 L 7.2324219 20.763672 C 8.6914219 21.559672 10.333859 21.977516 12.005859 21.978516 L 12.009766 21.978516 C 17.514766 21.978516 21.995047 17.499141 21.998047 11.994141 C 22.000047 9.3251406 20.962172 6.8157344 19.076172 4.9277344 C 17.190172 3.0407344 14.683719 2.001 12.011719 2 z M 12.009766 4 C 14.145766 4.001 16.153109 4.8337969 17.662109 6.3417969 C 19.171109 7.8517969 20.000047 9.8581875 19.998047 11.992188 C 19.996047 16.396187 16.413812 19.978516 12.007812 19.978516 C 10.674812 19.977516 9.3544062 19.642812 8.1914062 19.007812 L 7.5175781 18.640625 L 6.7734375 18.816406 L 4.8046875 19.28125 L 5.2851562 17.496094 L 5.5019531 16.695312 L 5.0878906 15.976562 C 4.3898906 14.768562 4.0204844 13.387375 4.0214844 11.984375 C 4.0234844 7.582375 7.6067656 4 12.009766 4 z M 8.4765625 7.375 C 8.3095625 7.375 8.0395469 7.4375 7.8105469 7.6875 C 7.5815469 7.9365 6.9355469 8.5395781 6.9355469 9.7675781 C 6.9355469 10.995578 7.8300781 12.182609 7.9550781 12.349609 C 8.0790781 12.515609 9.68175 15.115234 12.21875 16.115234 C 14.32675 16.946234 14.754891 16.782234 15.212891 16.740234 C 15.670891 16.699234 16.690438 16.137687 16.898438 15.554688 C 17.106437 14.971687 17.106922 14.470187 17.044922 14.367188 C 16.982922 14.263188 16.816406 14.201172 16.566406 14.076172 C 16.317406 13.951172 15.090328 13.348625 14.861328 13.265625 C 14.632328 13.182625 14.464828 13.140625 14.298828 13.390625 C 14.132828 13.640625 13.655766 14.201187 13.509766 14.367188 C 13.363766 14.534188 13.21875 14.556641 12.96875 14.431641 C 12.71875 14.305641 11.914938 14.041406 10.960938 13.191406 C 10.218937 12.530406 9.7182656 11.714844 9.5722656 11.464844 C 9.4272656 11.215844 9.5585938 11.079078 9.6835938 10.955078 C 9.7955938 10.843078 9.9316406 10.663578 10.056641 10.517578 C 10.180641 10.371578 10.223641 10.267562 10.306641 10.101562 C 10.389641 9.9355625 10.347156 9.7890625 10.285156 9.6640625 C 10.223156 9.5390625 9.737625 8.3065 9.515625 7.8125 C 9.328625 7.3975 9.131125 7.3878594 8.953125 7.3808594 C 8.808125 7.3748594 8.6425625 7.375 8.4765625 7.375 z"
+                                />
+                            </svg>
+                            15 99616-3813
+                        </a>
+                    </li>
+                    <li class="flex gap-2">
+                        <a
+                            class="flex gap-2 items-center hover:underline"
+                            href="https://www.facebook.com/sampaiotattooo/"
+                            target="blank"
+                        >
+                            <svg
+                                class="w-6 h-6"
+                                viewBox="0 0 16 30"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M16 0H11.6364C9.70752 0 7.85767 0.775965 6.49377 2.15719C5.12987 3.53842 4.36364 5.41176 4.36364 7.36511V11.7842H0V17.6763H4.36364V29.4604H10.1818V17.6763H14.5455L16 11.7842H10.1818V7.36511C10.1818 6.97444 10.3351 6.59977 10.6078 6.32353C10.8806 6.04728 11.2506 5.89209 11.6364 5.89209H16V0Z"
+                                    fill="currentColor"
+                                />
+                            </svg>
+                            /sampaiotattooo
+                        </a>
+                    </li>
+                    <li class="flex gap-2">
+                        <a
+                            class="flex gap-2 items-center hover:underline"
+                            href="https://www.instagram.com/sampaiotattooo/"
+                            target="blank"
+                        >
+                            <svg
+                                class="w-6 h-6"
+                                viewBox="0 0 28 28"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M14.0031 6.71307C10.0303 6.71307 6.82588 9.86747 6.82588 13.7782C6.82588 17.6889 10.0303 20.8433 14.0031 20.8433C17.9759 20.8433 21.1804 17.6889 21.1804 13.7782C21.1804 9.86747 17.9759 6.71307 14.0031 6.71307ZM14.0031 18.3714C11.4358 18.3714 9.33698 16.3115 9.33698 13.7782C9.33698 11.2448 11.4296 9.18494 14.0031 9.18494C16.5767 9.18494 18.6693 11.2448 18.6693 13.7782C18.6693 16.3115 16.5704 18.3714 14.0031 18.3714V18.3714ZM23.148 6.42407C23.148 7.34026 22.3984 8.07198 21.474 8.07198C20.5432 8.07198 19.7999 7.33411 19.7999 6.42407C19.7999 5.51404 20.5495 4.77617 21.474 4.77617C22.3984 4.77617 23.148 5.51404 23.148 6.42407ZM27.9016 8.09658C27.7954 5.88912 27.2832 3.93377 25.6404 2.32275C24.0038 0.711736 22.0174 0.207526 19.7749 0.0968453C17.4637 -0.0322818 10.5363 -0.0322818 8.2251 0.0968453C5.98885 0.201377 4.00245 0.705587 2.35962 2.3166C0.716788 3.92762 0.21082 5.88297 0.0983826 8.09043C-0.0327942 10.3655 -0.0327942 17.1847 0.0983826 19.4598C0.204573 21.6672 0.716788 23.6226 2.35962 25.2336C4.00245 26.8446 5.9826 27.3488 8.2251 27.4595C10.5363 27.5886 17.4637 27.5886 19.7749 27.4595C22.0174 27.355 24.0038 26.8508 25.6404 25.2336C27.277 23.6226 27.7892 21.6672 27.9016 19.4598C28.0328 17.1847 28.0328 10.3717 27.9016 8.09658V8.09658ZM24.9158 21.9009C24.4286 23.1061 23.4853 24.0346 22.2548 24.5203C20.412 25.2397 16.0395 25.0737 14.0031 25.0737C11.9668 25.0737 7.58795 25.2336 5.75148 24.5203C4.52716 24.0407 3.58394 23.1122 3.09046 21.9009C2.35962 20.087 2.52828 15.7827 2.52828 13.7782C2.52828 11.7736 2.36587 7.46324 3.09046 5.65546C3.57769 4.45027 4.52091 3.52179 5.75148 3.03602C7.5942 2.3166 11.9668 2.48262 14.0031 2.48262C16.0395 2.48262 20.4183 2.32275 22.2548 3.03602C23.4791 3.51564 24.4223 4.44413 24.9158 5.65546C25.6466 7.46939 25.478 11.7736 25.478 13.7782C25.478 15.7827 25.6466 20.0931 24.9158 21.9009Z"
+                                    fill="currentColor"
+                                />
+                            </svg>
+                            /sampaiotattooo</a
+                        >
+                    </li>
+                    <li class="flex gap-2 items-center">
+                        <a
+                            class="flex gap-2 items-center hover:underline"
+                            href="mailto:sampaioow@hotmail.com"
+                        >
+                            <svg
+                                class="w-6 h-6"
+                                version="1.1"
+                                id="Capa_1"
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                x="0px"
+                                y="0px"
+                                viewBox="0 0 489.776 489.776"
+                                style="
+                                    enable-background: new 0 0 489.776 489.776;
+                                "
+                                xml:space="preserve"
+                            >
+                                <g>
+                                    <path
+                                        d="M469.075,64.488h-448.2c-10.3,0-18.8,7.5-20.5,17.3c-0.6,2.4-0.3,322.7-0.3,322.7c0,11.4,9.4,20.8,20.8,20.8h447.1		c11.4,0,20.8-8.3,21.8-19.8v-320.2C489.875,73.788,480.475,64.488,469.075,64.488z M404.275,106.088l-159.8,114.4l-159.8-114.4		H404.275z M40.675,384.788v-259.9l192.4,137.2c7.8,6.3,17.2,4.4,22.9,0l192.4-137.8v260.5L40.675,384.788L40.675,384.788z"
+                                    />
+                                </g>
+                            </svg>
+
+                            sampaioow@hotmail.com</a
+                        >
+                    </li>
+                </ul>
+
+                <h2
+                    class="text-center font-bold font-times text-3xl w-full mt-20 mb-9"
+                >
+                    LOCALIZAÇÃO
+                </h2>
+                <iframe
+                    class="mx-auto md:w-[600px]"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.6163089795973!2d-49.34649518536969!3d-24.114985088153567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c3b569ce384c0b%3A0x6dd6c769736c196!2sR.%20Prudente%20de%20Morais%2C%20320%20-%20Vila%20Jurandir%2C%20Itarar%C3%A9%20-%20SP%2C%2018460-000!5e0!3m2!1spt-PT!2sbr!4v1633650970992!5m2!1spt-PT!2sbr"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                ></iframe>
+            </section>
+
+            <figure class="max-w-xs mx-auto">
+                <img
+                    class="w-full h-full"
+                    src="./images/logo-dragao.webp"
+                    alt="imagem de um dragão desenhado pelo tatuador Matheus Sampaio"
+                />
+            </figure>
+        </main>
+
+        <footer class="mt-9 xl:mt-0">
+            <p
+                class="xl:max-w-4xl 2xl:max-w-5xl mx-auto flex flex-col xl:flex-row text-center gap-4 md:gap-0 xl:justify-around font-montserrat py-4"
+            >
+                <span>
+                    Sampaio Tattoo Studio - Todos os direitos reservados
+                </span>
+                <span>
+                    Desenvolvido por
+                    <a
+                        class="hover:underline"
+                        href="https://github.com/pldnz"
+                        target="blank"
+                        >Paulo Diniz</a
+                    >
+                </span>
+            </p>
+        </footer>
+
+        <div id="ex1" class="modal">
+            <img
+                src="./images/tattoo-1.webp"
+                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+            />
         </div>
-        <div>
-          <p>"Gostei bastante do ambiente do estúdio, que é super aconchegante e organizado!
-            Gostei também da higiene e preocupação com os cuidados pós tatuagem, no qual ele fornece até pomadinhas cicatrizantes e um guia de como cuidar... adorei! com certeza farei de novo!"
-          </p>
-          <img src="/images/cliente-2.webp" alt="Foto da cliente Rafaela Mazorca">
-          <p>
-            <span>Rafaela Mazorca</span>
-          </p>
+        <div id="ex2" class="modal">
+            <img
+                src="./images/tattoo-2.webp"
+                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+            />
         </div>
-      </div>
-      <div class="itens-clientes">
-        <div>
-          <p>
-            "Conheço o Sampaio a anos, a tanto tempo que já não sei mais quanto! A arte sempre esteve presente na vida dele, desde muito pequeno, sempre gostou de rabiscar. Vi o talento desse cara crescer junto com ele, passando pelas mais diversas tipos de telas, onde coubesse arte, ele dava um jeito de encaixar. Há algum tempo, eu e alguns amigos em comum, começamos a nos tatuar, e nessa brecha ele encontrou mais uma tela que ele poderia explorar seu talento, e eu tive o prazer de ser a sua primeira tela viva! Desde então, a admiração que eu tinha por ele só aumentou, a sua dedicação e compromisso com a satisfação e bem estar do seus clientes é admirável! Passei por vários tatuadores antes dele, e posso garantir que o tratamento e o compromisso é inigualável!."</p>
-          <img src="/images/cliente-3.webp" alt="Foto do cliente Dyuri Halcsik">
-          <p>
-            <span>Dyuri Halcsik</span>
-          </p>
+        <div id="ex3" class="modal">
+            <img
+                src="./images/tattoo-3.webp"
+                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+            />
         </div>
-      </div>
-    </section>
+        <div id="ex4" class="modal">
+            <img
+                src="./images/tattoo-4.webp"
+                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+            />
+        </div>
+        <div id="ex5" class="modal">
+            <img
+                src="./images/tattoo-5.webp"
+                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+            />
+        </div>
+        <div id="ex6" class="modal">
+            <img
+                src="./images/tattoo-6.webp"
+                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+            />
+        </div>
+        <div id="ex7" class="modal">
+            <img
+                src="./images/tattoo-7.webp"
+                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+            />
+        </div>
+        <div id="ex8" class="modal">
+            <img
+                src="./images/tattoo-8.webp"
+                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+            />
+        </div>
+        <div id="ex9" class="modal">
+            <img
+                src="./images/tattoo-9.webp"
+                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+            />
+        </div>
+        <div id="ex10" class="modal">
+            <img
+                src="./images/tattoo-10.webp"
+                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+            />
+        </div>
+        <div id="ex11" class="modal">
+            <img
+                src="./images/tattoo-11.webp"
+                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+            />
+        </div>
+        <div id="ex12" class="modal">
+            <img
+                src="./images/tattoo-12.webp"
+                alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio"
+            />
+        </div>
+        <div id="ex13" class="modal">
+            <img
+                src="./images/autoral-1.webp"
+                alt="Foto de um desenho autoral do Matheus Sampaio"
+            />
+        </div>
+        <div id="ex13" class="modal">
+            <img
+                src="./images/autoral-1.webp"
+                alt="Foto de um desenho autoral do Matheus Sampaio"
+            />
+        </div>
+        <div id="ex14" class="modal">
+            <img
+                src="./images/autoral-2.webp"
+                alt="Foto de um desenho autoral do Matheus Sampaio"
+            />
+        </div>
+        <div id="ex15" class="modal">
+            <img
+                src="./images/autoral-3.webp"
+                alt="Foto de um desenho autoral do Matheus Sampaio"
+            />
+        </div>
+        <div id="ex16" class="modal">
+            <img
+                src="./images/autoral-4.webp"
+                alt="Foto de um desenho autoral do Matheus Sampaio"
+            />
+        </div>
+        <div id="ex17" class="modal">
+            <img
+                src="./images/autoral-5.webp"
+                alt="Foto de um desenho autoral do Matheus Sampaio"
+            />
+        </div>
+        <div id="ex18" class="modal">
+            <img
+                src="./images/autoral-6.webp"
+                alt="Foto de um desenho autoral do Matheus Sampaio"
+            />
+        </div>
 
-    <section class="contato" id="contato">
-      <h2>CONTATO</h2>
-      <div class="contato-itens">
-        <p><img src="/images/whatsapp.png" alt="ícone do whatsapp">15 99616-3813</p>
-        <p><img src="/images/facebook-2.png" alt="ícone do facebook"><a href="https://www.facebook.com/sampaiotattooo/" target="blank">/sampaiotattooo</a></p>
-        <p><img src="/images/instagram-2.png" alt="ícone do instagram"><a href="https://www.instagram.com/sampaiotattooo/" target="blank">/sampaiotattooo</a></p>
-        <p><img src="/images/mail.png" alt="ícone de um envelope para representar o campo email"><a href="mailto:sampaioow@hotmail.com">sampaioow@hotmail.com</a></p>
-      </div>
-      
-      <h2>LOCALIZAÇÃO</h2>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.6163089795973!2d-49.34649518536969!3d-24.114985088153567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c3b569ce384c0b%3A0x6dd6c769736c196!2sR.%20Prudente%20de%20Morais%2C%20320%20-%20Vila%20Jurandir%2C%20Itarar%C3%A9%20-%20SP%2C%2018460-000!5e0!3m2!1spt-PT!2sbr!4v1633650970992!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </section>
-    
-    <div class="dragao">
-      <img src="/images/logo-dragao.webp" alt="imagem de um dragão desenhado pelo tatuador Matheus Sampaio">
-    </div>
-    
-  </main>
+        <figure
+            class="fixed w-[90px] h-[90px] right-7 bottom-7 xl:right-20 xl:bottom-20 z-20"
+        >
+            <a
+                href="https://api.whatsapp.com/send?phone=5515996163813&text="
+                target="blank"
+                ><img src="./images/whatsapp.gif" alt=""
+            /></a>
+        </figure>
 
-  <footer class="footer">
-    <p>Sampaio Tattoo Studio - Todos os direitos reservados</p>
-    <p>Desenvolvido por <a href="https://github.com/pldnz" target="blank">Paulo Diniz</a></p>
-  </footer>
-
-  <div id="ex1" class="modal">
-    <img src="/images/tattoo-1.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio">
-  </div>
-  <div id="ex2" class="modal">
-    <img src="/images/tattoo-2.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio">
-  </div>
-  <div id="ex3" class="modal">
-    <img src="/images/tattoo-3.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio">
-  </div>
-  <div id="ex4" class="modal">
-    <img src="/images/tattoo-4.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio">
-  </div>
-  <div id="ex5" class="modal">
-    <img src="/images/tattoo-5.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio">
-  </div>
-  <div id="ex6" class="modal">
-    <img src="/images/tattoo-6.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio">
-  </div>
-  <div id="ex7" class="modal">
-    <img src="/images/tattoo-7.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio">
-  </div>
-  <div id="ex8" class="modal">
-    <img src="/images/tattoo-8.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio">
-  </div>
-  <div id="ex9" class="modal">
-    <img src="/images/tattoo-9.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio">
-  </div>
-  <div id="ex10" class="modal">
-    <img src="/images/tattoo-10.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio">
-  </div>
-  <div id="ex11" class="modal">
-    <img src="/images/tattoo-11.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio">
-  </div>
-  <div id="ex12" class="modal">
-    <img src="/images/tattoo-12.webp" alt="Foto de uma tatuagem desenhada pelo Matheus Sampaio">
-  </div>
-  <div id="ex13" class="modal">
-    <img src="/images/autoral-1.webp" alt="Foto de um desenho autoral do Matheus Sampaio">
-  </div>
-  <div id="ex13" class="modal">
-    <img src="/images/autoral-1.webp" alt="Foto de um desenho autoral do Matheus Sampaio">
-  </div>
-  <div id="ex14" class="modal">
-    <img src="/images/autoral-2.webp" alt="Foto de um desenho autoral do Matheus Sampaio">
-  </div>
-  <div id="ex15" class="modal">
-    <img src="/images/autoral-3.webp" alt="Foto de um desenho autoral do Matheus Sampaio">
-  </div>
-  <div id="ex16" class="modal">
-    <img src="/images/autoral-4.webp" alt="Foto de um desenho autoral do Matheus Sampaio">
-  </div>
-  <div id="ex17" class="modal">
-    <img src="/images/autoral-5.webp" alt="Foto de um desenho autoral do Matheus Sampaio">
-  </div>
-  <div id="ex18" class="modal">
-    <img src="/images/autoral-6.webp" alt="Foto de um desenho autoral do Matheus Sampaio">
-  </div>
-
-  <div class="whatsapp">
-    <a href="https://api.whatsapp.com/send?phone=5515996163813&text=" target="blank"><img src="/images/whatsapp.gif" alt=""/></a>
-  </div>
-  <script src="/js/jquery.js"></script>
-  <script src="/js/owl.carousel.min.js"></script>
-  <script src="/js/carousel.js"></script>
-  <script src="/js/app.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-</body>
+        <script src="js/jquery.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/carousel.js"></script>
+        <script src="js/app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
+        />
+    </body>
 </html>
