@@ -678,6 +678,10 @@ video {
   height: 90px;
 }
 
+.h-40 {
+  height: 10rem;
+}
+
 .w-screen {
   width: 100vw;
 }
@@ -853,6 +857,10 @@ video {
   text-indent: -999px;
 }
 
+.indent-\[-9999px\] {
+  text-indent: -9999px;
+}
+
 .font-times {
   font-family: "Times New Roman", Times, serif;
 }
@@ -932,6 +940,10 @@ video {
     height: 350px;
   }
 
+  .md\:h-80 {
+    height: 20rem;
+  }
+
   .md\:w-\[350px\] {
     width: 350px;
   }
@@ -981,6 +993,32 @@ video {
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:h-\[410px\] {
+    height: 410px;
+  }
+
+  .lg\:h-\[400px\] {
+    height: 400px;
+  }
+
+  .lg\:h-auto {
+    height: auto;
+  }
+
+  .lg\:hover\:scale-110:hover {
+    --tw-scale-x: 1.1;
+    --tw-scale-y: 1.1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .group:hover .lg\:group-hover\:scale-125 {
+    --tw-scale-x: 1.25;
+    --tw-scale-y: 1.25;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 }
 
